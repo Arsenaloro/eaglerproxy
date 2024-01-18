@@ -10,9 +10,9 @@ export const config: Config = {
   },
   adapter: {
     name: "EaglerProxy",
-    bindHost: "0.0.0.0",
-    bindPort: 8080,
-    maxConcurrentClients: 20,
+    bindHost: "coal-free.falixserver.net",
+    bindPort: 48235,
+    maxConcurrentClients: 40,
     skinUrlWhitelist: undefined,
     motd: true
       ? "FORWARD"
